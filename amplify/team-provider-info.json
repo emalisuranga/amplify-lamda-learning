@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifylamdalearning-dev-143036-authRole",
+      "UnauthRoleArn": "arn:aws:iam::042207687108:role/amplify-amplifylamdalearning-dev-143036-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::042207687108:role/amplify-amplifylamdalearning-dev-143036-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplifylamdalearning-dev-143036-deployment",
+      "UnauthRoleName": "amplify-amplifylamdalearning-dev-143036-unauthRole",
+      "StackName": "amplify-amplifylamdalearning-dev-143036",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:042207687108:stack/amplify-amplifylamdalearning-dev-143036/5d10b9d0-c255-11ee-a907-0e2f96b4f797",
+      "AmplifyAppId": "d39ec8mmjvf9t"
+    },
+    "categories": {
+      "function": {
+        "amplifylamdalearning3c26eb26": {
+          "sum": "10",
+          "deploymentBucketName": "amplify-amplifylamdalearning-dev-143036-deployment",
+          "s3Key": "amplify-builds/amplifylamdalearning3c26eb26-7641314f554272324572-build.zip"
+        },
+        "toDo": {
+          "deploymentBucketName": "amplify-amplifylamdalearning-dev-143036-deployment",
+          "s3Key": "amplify-builds/toDo-4f385935306b58324673-build.zip"
+        }
+      },
+      "api": {
+        "amplifylamdalearning": {}
+      }
+    }
+  }
+}

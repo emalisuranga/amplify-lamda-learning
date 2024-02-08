@@ -1,0 +1,75 @@
+{
+  "api": {
+    "amplifylamdalearning": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "function": {
+    "amplifylamdalearning3c26eb26": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "toDo": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifylamdalearning3c26eb26_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifylamdalearning3c26eb26"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifylamdalearning3c26eb26_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifylamdalearning3c26eb26"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifylamdalearning3c26eb26_sum": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifylamdalearning3c26eb26"
+        }
+      ]
+    },
+    "AMPLIFY_function_toDo_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "toDo"
+        }
+      ]
+    },
+    "AMPLIFY_function_toDo_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "toDo"
+        }
+      ]
+    }
+  }
+}
